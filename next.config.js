@@ -4,8 +4,8 @@ const nextConfig = {
   swcMinify: true,
   env: {
     // For Local Server
-    URL: "http://uzapi.dokaner.com/api/admin",
-    storageURL: "http://uzapi.dokaner.com",
+    URL: "https://uzapi.dokaner.com/api/admin",
+    storageURL: "https://uzapi.dokaner.com",
   },
   redirects: async () => {
     return [
@@ -20,7 +20,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "http://uzapi.dokaner.com/",
+        hostname: "uzapi.dokaner.com",
       },
       {
         protocol: "http",
